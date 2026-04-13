@@ -1,0 +1,6 @@
+{
+  "name": "docs-redirects",
+  "version": "1.0.0",
+  "private": true,
+  "description": "301 redirects from old docs domains (waves-docs, atoms-docs) to unified docs.smallest.ai"
+}
