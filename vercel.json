@@ -26,13 +26,43 @@
       "permanent": true
     },
     {
+      "source": "/v4.0.0/content/voice-cloning/how-to-vc-ui",
+      "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-ui?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/v4.0.0/content/voice-cloning/how-to-vc-api",
+      "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-api?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/v4.0.0/content/voice-cloning/how-to-vc",
+      "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-python-sdk?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/v4.0.0/content/voice-cloning/how-to-delete-vc",
+      "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/delete-cloned-voice?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
       "source": "/v4.0.0/content/voice-cloning/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
+      "source": "/v4.0.0/content/best-practices/vc-best-practices",
+      "destination": "https://docs.smallest.ai/waves/documentation/best-practices/voice-cloning-best-practices?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
       "source": "/v4.0.0/content/best-practices/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/best-practices/:path*?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/v4.0.0/content/integrations/livekit",
+      "destination": "https://docs.smallest.ai/waves/documentation/integrations/live-kit?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
@@ -58,6 +88,11 @@
     {
       "source": "/intro/welcome",
       "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/intro/capabilities/agents-explained",
+      "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/agents?utm_source=redirect&utm_medium=old-atoms-docs",
       "permanent": true
     },
     {
@@ -111,8 +146,18 @@
       "permanent": true
     },
     {
+      "source": "/dev/introduction/mcp/overview",
+      "destination": "https://docs.smallest.ai/atoms/mcp/getting-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
       "source": "/dev/introduction/mcp/:path*",
       "destination": "https://docs.smallest.ai/atoms/mcp/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/dev/introduction/:path*",
+      "destination": "https://docs.smallest.ai/atoms/developer-guide/get-started/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
       "permanent": true
     },
     {
