@@ -184,7 +184,7 @@
     {
       "source": "/",
       "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
-      "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
       "permanent": true
     },
     {
@@ -196,7 +196,7 @@
     {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
-      "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
       "permanent": true
     }
   ]
