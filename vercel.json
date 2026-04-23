@@ -1,82 +1,82 @@
 {
   "redirects": [
     {
-      "source": "/v4.0.0/content/getting-started/quickstart",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/getting-started/quickstart",
       "destination": "https://docs.smallest.ai/waves/documentation/text-to-speech-lightning/quickstart?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/getting-started/authentication",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/getting-started/authentication",
       "destination": "https://docs.smallest.ai/waves/api-reference/api-references/authentication?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/api-references/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/api-references/:path*",
       "destination": "https://docs.smallest.ai/waves/api-reference?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/text-to-speech/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/text-to-speech/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/text-to-speech-lightning/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/speech-to-text/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/speech-to-text/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/speech-to-text-pulse/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/voice-cloning/how-to-vc-ui",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc-ui",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-ui?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/voice-cloning/how-to-vc-api",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc-api",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-api?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/voice-cloning/how-to-vc",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-python-sdk?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/voice-cloning/how-to-delete-vc",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-delete-vc",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/delete-cloned-voice?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/voice-cloning/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/best-practices/vc-best-practices",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/best-practices/vc-best-practices",
       "destination": "https://docs.smallest.ai/waves/documentation/best-practices/voice-cloning-best-practices?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/best-practices/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/best-practices/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/best-practices/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/integrations/livekit",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/integrations/livekit",
       "destination": "https://docs.smallest.ai/waves/documentation/integrations/live-kit?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/integrations/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/integrations/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/integrations/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/cookbooks/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/cookbooks/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/cookbooks/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/v4.0.0/content/on-prem/:path*",
+      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/on-prem/:path*",
       "destination": "https://docs.smallest.ai/waves/self-host/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
@@ -174,12 +174,18 @@
       "source": "/deep-dive/:path*",
       "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
       "permanent": true
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
+      "permanent": true
     }
   ]
 }
