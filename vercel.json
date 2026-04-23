@@ -176,6 +176,18 @@
       "permanent": true
     },
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs-fallback",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
       "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-fallback",
