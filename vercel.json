@@ -1,83 +1,164 @@
 {
   "redirects": [
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/getting-started/quickstart",
+      "source": "/:path*/CapabilityCard",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/FeatureHighlight",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/Hero",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/PathSelector",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/ProductCard",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/CapabilityCard",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/FeatureHighlight",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/Hero",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/PathSelector",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-component-fallback",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/ProductCard",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/documentation/getting-started/introduction?utm_source=redirect&utm_medium=old-waves-docs-component-fallback",
+      "permanent": true
+    },
+
+    {
+      "source": "/:version(v[0-9][^/]*)/content/getting-started/quickstart",
       "destination": "https://docs.smallest.ai/waves/documentation/text-to-speech-lightning/quickstart?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/getting-started/authentication",
+      "source": "/:version(v[0-9][^/]*)/content/getting-started/authentication",
       "destination": "https://docs.smallest.ai/waves/api-reference/api-references/authentication?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/api-references/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/api-references/:path*",
       "destination": "https://docs.smallest.ai/waves/api-reference?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/text-to-speech/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/text-to-speech/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/text-to-speech-lightning/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/speech-to-text/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/speech-to-text-new/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/speech-to-text-pulse/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc-ui",
+      "source": "/:version(v[0-9][^/]*)/content/speech-to-text/:path*",
+      "destination": "https://docs.smallest.ai/waves/documentation/speech-to-text-pulse/:path*?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/:version(v[0-9][^/]*)/content/voice-cloning/how-to-vc-ui",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-ui?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc-api",
+      "source": "/:version(v[0-9][^/]*)/content/voice-cloning/how-to-vc-api",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-api?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-vc",
+      "source": "/:version(v[0-9][^/]*)/content/voice-cloning/how-to-vc",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/instant-clone-python-sdk?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/how-to-delete-vc",
+      "source": "/:version(v[0-9][^/]*)/content/voice-cloning/how-to-delete-vc",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/delete-cloned-voice?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/voice-cloning/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/voice-cloning/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/voice-cloning/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/best-practices/vc-best-practices",
+      "source": "/:version(v[0-9][^/]*)/content/best-practices/vc-best-practices",
       "destination": "https://docs.smallest.ai/waves/documentation/best-practices/voice-cloning-best-practices?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/best-practices/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/best-practices/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/best-practices/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/integrations/livekit",
-      "destination": "https://docs.smallest.ai/waves/documentation/integrations/live-kit?utm_source=redirect&utm_medium=old-waves-docs",
+      "source": "/:version(v[0-9][^/]*)/content/integrations/livekit",
+      "destination": "https://docs.smallest.ai/waves/integrations/live-kit?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/integrations/:path*",
-      "destination": "https://docs.smallest.ai/waves/documentation/integrations/:path*?utm_source=redirect&utm_medium=old-waves-docs",
+      "source": "/:version(v[0-9][^/]*)/content/integrations/openwhispr",
+      "destination": "https://docs.smallest.ai/waves/integrations/open-whispr?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/cookbooks/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/integrations/:path*",
+      "destination": "https://docs.smallest.ai/waves/integrations/:path*?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/:version(v[0-9][^/]*)/content/cookbooks/:path*",
       "destination": "https://docs.smallest.ai/waves/documentation/cookbooks/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
-      "source": "/:version(v[0-9]+[.][0-9]+[.][0-9]+)/content/on-prem/:path*",
+      "source": "/:version(v[0-9][^/]*)/content/on-prem/:path*",
       "destination": "https://docs.smallest.ai/waves/self-host/:path*?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/:version(v[0-9][^/]*)/content/changelog/:path*",
+      "destination": "https://docs.smallest.ai/waves/documentation/changelog?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/:version(v[0-9][^/]*)/content/changelog",
+      "destination": "https://docs.smallest.ai/waves/documentation/changelog?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
     {
@@ -85,6 +166,135 @@
       "destination": "https://docs.smallest.ai/waves/documentation/:path*?utm_source=redirect&utm_medium=old-waves-docs",
       "permanent": true
     },
+
+    {
+      "source": "/docs/authentication",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/api-reference/api-references/authentication?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/get_streaming_speech",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/api-reference?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+    {
+      "source": "/waves/v1/:path*",
+      "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/waves/api-reference?utm_source=redirect&utm_medium=old-waves-docs",
+      "permanent": true
+    },
+
+    {
+      "source": "/quickstart",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/introduction",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/audience",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/audiences?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/webhook",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/webhooks?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/events",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/api-reference/api-reference/live-transcripts/subscribe-to-live-call-events-sse?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/prompt-cookbook",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/cookbooks?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/faqs/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/troubleshooting/faq?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/client-libraries/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/developer-guide/sdks?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/developer-guide/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/developer-guide/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/getting-started/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/usecases/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/cookbooks?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/product/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/phone-numbers?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/conversation",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/analytics-logs?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/conversation/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/analytics-logs?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/agent/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/get-started/quick-start?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/campaign/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/campaigns?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/chat/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/api-reference/api-reference?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/docs/api-reference/:path*",
+      "has": [{ "type": "host", "value": "atoms-docs.smallest.ai" }],
+      "destination": "https://docs.smallest.ai/atoms/api-reference/api-reference/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+
     {
       "source": "/intro/welcome",
       "destination": "https://docs.smallest.ai/atoms/product-overview/capabilities/welcome?utm_source=redirect&utm_medium=old-atoms-docs",
@@ -170,11 +380,73 @@
       "destination": "https://docs.smallest.ai/atoms/api-reference/api-reference/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
       "permanent": true
     },
+
+    {
+      "source": "/deep-dive/audience/audience",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/audiences?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/audience/:path*",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/audiences?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/campaign/campaign",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/campaigns?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/campaign/:path*",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/campaigns?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/knowledge-base/knowledge-base",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/knowledge-base?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/llm-config/:path*",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/single-prompt-agents/agent-settings/general-settings?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/phone-number/phone-number",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/phone-numbers?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/phone-number/:path*",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/deployment/phone-numbers?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/realtime-events/:path*",
+      "destination": "https://docs.smallest.ai/atoms/api-reference/api-reference/live-transcripts/subscribe-to-live-call-events-sse?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/voicemail-detection/:path*",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/single-prompt-agents/overview?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/webhooks/webhooks",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/webhooks?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
+    {
+      "source": "/deep-dive/widget/widget",
+      "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/widget?utm_source=redirect&utm_medium=old-atoms-docs",
+      "permanent": true
+    },
     {
       "source": "/deep-dive/:path*",
       "destination": "https://docs.smallest.ai/atoms/atoms-platform/features/:path*?utm_source=redirect&utm_medium=old-atoms-docs",
       "permanent": true
     },
+
     {
       "source": "/",
       "has": [{ "type": "host", "value": "waves-docs.smallest.ai" }],
